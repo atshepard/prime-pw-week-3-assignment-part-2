@@ -16,7 +16,8 @@ for (let i=0; i<4; i++) {
 console.log('count from 0 to 5');
 for (let i=0; i<6; i++) {
   console.log(i);
-} /* Just talking through the logic to make sure I understand
+};
+/* Just talking through the logic to make sure I understand
  The idea is that we are logging our variable 'i' to the console
  our loop defines i in a current state '0'
  then defines an ending parameter 'less than 5'
@@ -26,6 +27,9 @@ for (let i=0; i<6; i++) {
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
+for (let i = 3; i < 6; i++) {
+  console.log(i);
+};
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?

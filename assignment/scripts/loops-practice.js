@@ -64,10 +64,20 @@ let i = 0;
 while (stars[i]) {
   console.log(stars[i]);
   i++;
-} //The idea here is to start the index at 0, log the value, then iterate through each item in the arrway. 
+} //The idea here is to start the index at 0, log the value, then iterate through each item in the arrway.
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+let n = 0;
+while (n <= 5) {
+  console.log(n);
+  n++;
+}
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let q = 10;
+while (q >= 5) {
+  console.log(q);
+  q--;
+}

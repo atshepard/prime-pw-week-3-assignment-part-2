@@ -6,7 +6,7 @@ console.log('---- 1. For loops ----');
 // Example: a for loop to console.log numbers from 0 to 3
 console.log('count from 0 to 3');
 // start i at 0, while i is < 4 do code between {}, afterwards add 1 to i (i++)
-for (let i=0; i<4; i++) {
+for (let i = 0; i < 4; i++) {
   console.log(i);
 }
 
@@ -14,7 +14,7 @@ for (let i=0; i<4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 //   -- the parameter that ends the loop, which is that i is less than 4. To count up to 5, it should be less than 6.
 console.log('count from 0 to 5');
-for (let i=0; i<6; i++) {
+for (let i = 0; i < 6; i++) {
   console.log(i);
 };
 /* Just talking through the logic to make sure I understand
